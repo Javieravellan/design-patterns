@@ -32,7 +32,7 @@ public class Main {
         //hole.fits(smallSqPeg); // not compile; interfaces no compatibles
 
         // Usando el adaptador para que pueda caber un cuadrado dentro de un un agujero circular
-        SquarePegAdapter smSquareAdapter = new SquarePegAdapter(smallSqPeg );
+        SquarePegAdapter smSquareAdapter = new SquarePegAdapter(smallSqPeg);
         SquarePegAdapter lgSquareAdapter = new SquarePegAdapter(largeSqPeg);
 
         if (hole.fits(smSquareAdapter)) {
